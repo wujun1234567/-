@@ -1,48 +1,163 @@
 body {
-    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
-    color: #333;
-
+  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei,
+    Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+  color: #333;
 }
 
 /***   顶部栏的样式设定    */
 .topBar {
-    widows: 100%;
-    height: 40px;
-    background-color: #333;
+  widows: 100%;
+  height: 40px;
+  background-color: #333;
 }
 
 .topBar .container {
-    width: 1226px;
-    height: 100%;
-    margin: 0 auto;
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .topBar .topBar-list {
-    float: left;
+  float: left;
 }
 
 .topBar .shop {
-    float: right;
-    width: 120px;
-    height: 40px;
-    margin-left: 15px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #424242;
+  float: right;
+  width: 120px;
+  height: 40px;
+  margin-left: 15px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #424242;
+}
+
+.topBar .shop a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
 }
 
 .topBar .login {
-    float: right;
+  float: right;
 }
 
 .topBar a {
-    color: #b0b0b0;
-    font-size: 12px;
-    display: inline-block;
-    line-height: 40px;
+  color: #b0b0b0;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.topBar a:hover {
+  color: #fff;
 }
 
 .topBar span {
-    color: #424242;
-    margin: 0 .5em;
+  color: #424242;
+  margin: 0 0.5em;
 }
+/* 小米顶部栏结束 */
+
+/* 小米导航栏start */
+.header {
+  height: 100px;
+}
+
+.header .container {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header .site-login {
+  float: left;
+  width: 62px;
+  margin-top: 22px;
+}
+
+.header .site-login a {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+}
+
+.header .site-list {
+  float: left;
+  width: 850px;
+}
+
+.header .site-list ul {
+  width: 820px;
+  height: 88px;
+  padding: 12px 0 0 30px;
+  font-size: 16px;
+}
+
+.header .site-list ul .site-category a {
+  padding: 0;
+}
+
+.header .site-list ul li {
+  float: left;
+}
+
+.header .site-list ul li a {
+  display: block;
+  padding: 26px 10px 38px;
+  color: #333;
+}
+
+.header .site-list ul li a:hover {
+  color: #ff6700;
+}
+
+.header .site-search {
+  float: right;
+  width: 296px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.header .site-search form {
+  width: 296px;
+  height: 50px;
+}
+
+.header .site-search form .search-text {
+  float: left;
+  width: 223px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.header .site-search form .search-btn {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: -1px;
+  border: 1px solid #ccc;
+}
+
+.header .site-search form .search-word {
+  position: absolute;
+  top: 14px;
+  right: 65px;
+  font-size: 12px;
+}
+
+.header .site-search form .search-word a {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 0 5px;
+  background-color: #eee;
+  color: #757575;
+}
+
+.header .site-search form .search-word a:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+
+/* 小米导航栏end */
